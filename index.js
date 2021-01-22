@@ -9,7 +9,7 @@ const port = process.env.PORT || 8000;
 // Register our routes in app
 app.use("/projects", projectRouter);
 app.get("/", function (req, res) {
-  res.send("Clayton Mercer Projects!");
+  res.send("Mercer Portfolio API!");
 });
 module.exports.app = app;
 module.exports.isProduction = isProduction;
