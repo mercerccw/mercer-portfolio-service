@@ -9,8 +9,26 @@ const projects = [
     "thumbnail": "https://wallpaperaccess.com/full/38580.jpg",
     "tools": [
       {
+        "name": "Blender"
+      },
+      {
         "name": "Unity3D"
       }
+    ],
+    "languages": [
+      {
+        "name": "C#"
+      }
+    ],
+    "links": [
+      {
+        "name": "App Store",
+        "link": "https://www.google.com/"
+      },
+      {
+        "name": "Google Play Store",
+        "link": "https://www.google.com/"
+      },
     ]
   },
   {
@@ -23,8 +41,26 @@ const projects = [
     "thumbnail": "https://wallpaperaccess.com/full/38580.jpg",
     "tools": [
       {
+        "name": "Google Analytics"
+      },
+      {
         "name": "React Native"
       }
+    ],
+    "languages": [
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "links": [
+      {
+        "name": "App Store",
+        "link": "https://www.google.com/"
+      },
+      {
+        "name": "Google Play Store",
+        "link": "https://www.google.com/"
+      },
     ]
   },
   {
@@ -40,9 +76,30 @@ const projects = [
         "name": "AngularJS"
       },
       {
+        "name": "MySQL"
+      },
+      {
         "name": "SLIM"
       }
-    ]
+    ],
+    "languages": [
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "PHP"
+      },
+      {
+        "name": "SQL"
+      }
+    ],
+    "links": []
   },
   {
     "id": 4,
@@ -52,7 +109,9 @@ const projects = [
     "type": "Brochure",
     "featured": false,
     "thumbnail": "https://i.pinimg.com/originals/2f/e8/05/2fe8053c01e6dbc40451832248df5e4f.jpg",
-    "tools": []
+    "tools": [],
+    "languages": [],
+    "links": []
   },
   {
     "id": 5,
@@ -64,20 +123,38 @@ const projects = [
     "thumbnail": "https://www.wallpapertip.com/wmimgs/3-30668_3840x2160-landscape-4k-ultra-hd-wallpaper-ultra-hd.jpg",
     "tools": [
       {
+        "name": "GraphQL"
+      },
+      {
+        "name": "Jest"
+      },
+      {
         "name": "React Native"
       },
       {
         "name": "Redux"
+      }
+    ],
+    "languages": [
+      {
+        "name": "TypeScript"
+      }
+    ],
+    "links": [
+      {
+        "name": "App Store",
+        "link": "https://www.google.com/"
       },
       {
-        "name": "GraphQL"
-      }
+        "name": "Google Play Store",
+        "link": "https://www.google.com/"
+      },
     ]
   },
   {
     "id": 6,
     "name": "Philosophy Outreach Site",
-    "description": "A promotional website designed for the Ball State Philosoophy outreach program.",
+    "description": "A promotional website designed for the Ball State Philosophy outreach program.",
     "role": "Developer",
     "type": "Website",
     "featured": false,
@@ -85,6 +162,26 @@ const projects = [
     "tools": [
       {
         "name": "Wordpress"
+      }
+    ],
+    "languages": [
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "PHP"
+      }
+    ],
+    "links": [
+      {
+        "name": "Philosophy Outreach",
+        "link": "https://philosophyoutreachproject.azurewebsites.net/"
       }
     ]
   },
@@ -104,9 +201,27 @@ const projects = [
         "name": "SLIM"
       },
       {
-        "name": "SQL"
+        "name": "MySQL"
       }
-    ]
+    ],
+    "languages": [
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "PHP"
+      },
+      {
+        "name": "SQL"
+      },
+    ],
+    "links": []
   },
   {
     "id": 8,
@@ -120,12 +235,32 @@ const projects = [
       {
         "name": "Wordpress"
       }
+    ],
+    "languages": [
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "PHP"
+      }
+    ],
+    "links": [
+      {
+        "name": "Teaching Remotely",
+        "link": "https://remoteteaching.bsu.edu/"
+      }
     ]
   },
   {
     "id": 9,
     "name": "Trust Admin App",
-    "description": "A trust account management app built using Microsft Xamarin",
+    "description": "A trust account management app built using Microsoft Xamarin",
     "role": "Developer",
     "type": "iOS/Android app",
     "featured": true,
@@ -134,7 +269,13 @@ const projects = [
       {
         "name": "Xamarin"
       }
-    ]
+    ],
+    "languages": [
+      {
+        "name": "C#"
+      }
+    ],
+    "links": []
   },
   {
     "id": 10,
@@ -146,13 +287,36 @@ const projects = [
     "thumbnail": "https://www.wallpapertip.com/wmimgs/3-30668_3840x2160-landscape-4k-ultra-hd-wallpaper-ultra-hd.jpg",
     "tools": [
       {
+        "name": "MySQL"
+      },
+      {
         "name": "React"
       },
       {
-        "name": "SLIM"
+        "name": "Slim"
+      }
+    ],
+    "languages": [
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "PHP"
       },
       {
         "name": "SQL"
+      },
+    ],
+    "links": [
+      {
+        "name": "BSU Writing Challenge",
+        "link": "https://writingchallenge.bsu.edu/"
       }
     ]
   }
