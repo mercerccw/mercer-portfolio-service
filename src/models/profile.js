@@ -16,7 +16,6 @@ const profile = {
     ],
     "email": "mercerccw@gmail.com",
     "name": "Clayton Mercer",
-    "phone": "(765)-639-6855",
     "profession": "Software Engineer",
     "jobs": [
         {
