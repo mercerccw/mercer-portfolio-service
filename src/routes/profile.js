@@ -1,11 +1,24 @@
 const express = require("express");
-const ProjectController = require("../controllers/projectController.js");
+const CloudController = require("../controllers/cloudController");
+const ProfileController = require("../controllers/profileController");
+const DevelopmentToolController = require("../controllers/developmentToolController");
+const LanguageController = require("../controllers/languageController");
+const SocialController = require("../controllers/socialController");
 const router = express.Router();
 
-router.get("/", (req, res) => {
-    ProjectController.getAllProjects(req, res);
+router.get("/me", (req, res) => {
+    ProfileController.getProfile(req, res);
 });
-router.get("/:id", (req, res) => {
-    ProjectController.getSingleProject(req, res);
+router.get("/cloud-tools", (req, res) => {
+    CloudController.getCloudTools(req, res);
+});
+router.get("/development-tools", (req, res) => {
+    DevelopmentToolController.getDevelopmentTools(req, res);
+});
+router.get("/languages", (req, res) => {
+    LanguageController.getLanguages(req, res);
+});
+router.get("/socials", (req, res) => {
+    SocialController.getSocials(req, res);
 });
 module.exports = router;

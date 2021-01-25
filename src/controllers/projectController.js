@@ -1,4 +1,4 @@
-const projects = require("../models/project.js");
+const projects = require("../models/projects.js");
 class ProjectController {
   // Get all projects
   static getAllProjects(req, res) {
